@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer utilities
+{
+  .gradient{
+    @apply bg-gradient-to-b from-white via-gray-300 to-gray-600 text-transparent bg-clip-text;
+  }
+  .gradienttitle
+  {
+    @apply bg-gradient-to-b from-white via-gray-300 to-gray-600;
+  }
+}
